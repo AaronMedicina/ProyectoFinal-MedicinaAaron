@@ -331,6 +331,13 @@ iframe {
         font-weight: 100;
         font-size: 12px;
     }
+
+    .containerFinanciacion {
+        width: auto;
+        display: inline-block;
+        justify-content: center;
+        margin: auto;
+    }
 }
 
 @media (max-width:880px) {
