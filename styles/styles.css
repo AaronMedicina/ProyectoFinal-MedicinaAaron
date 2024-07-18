@@ -10,12 +10,7 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    min-height: 90px;
     background-color: rgb(214, 47, 47);
-    align-items: center;
-    padding: 10px;
 }
 
 .logo img {
@@ -33,14 +28,13 @@ a {
     font-weight: 300;
 }
 
-.nav-link {
-    font-weight: 600;
-    padding-right: 10px;
+.nav-link:hover {
     color: white;
 }
 
-.nav-link:hover {
-    color: black;
+.nav-link:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
 
 .footer {
@@ -85,6 +79,13 @@ a {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.textoHome {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
     font-size: 20px;
 }
 
@@ -234,9 +235,6 @@ h5 {
 }
 
 @media (max-width:850px) {
-    header {
-        flex-direction: column;
-    }
     .nav-link {
         padding: 10px 0px;
         font-weight: 200;
