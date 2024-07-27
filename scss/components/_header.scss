@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(214, 47, 47);
+}
+
+.logo img {
+    height: 50px;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 0px 14px black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.nav-link:hover {
+    color: white;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}

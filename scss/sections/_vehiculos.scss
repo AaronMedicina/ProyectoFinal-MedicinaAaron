@@ -1,0 +1,96 @@
+.titulo {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.tituloSecu {
+    margin: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.gridAutos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: transparent;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid rgb(70, 67, 67);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgb(70, 67, 67);
+    justify-content: center;
+}
+
+.card {
+    width: auto;
+    background-color: rgb(214, 47, 47);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 14px rgb(70, 67, 67);
+    margin: 5px;
+    transition: 0.5s;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+h3 {
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 200;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: auto;
+    color: white;
+    position: relative;
+}
+
+.btn:hover {
+    color: rgb(214, 47, 47);
+}

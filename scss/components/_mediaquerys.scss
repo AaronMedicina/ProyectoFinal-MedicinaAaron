@@ -1,0 +1,99 @@
+@media (max-width: 850px) {
+    .nav-link {
+        padding: 10px 0px;
+        font-weight: 200;
+        font-size: 11px;
+        padding-right: 4.5px;
+    }
+
+    .logo img {
+        height: 34px;
+        margin: 8px;
+        border: 1px solid black;
+        border-radius: 2px;
+        box-shadow: 0px 0px 12px black;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-weight: 200;
+        font-size: 14px;
+    }
+
+    h4,
+    h5 {
+        font-weight: 100;
+        font-size: 12px;
+    }
+
+    .containerFinanciacion {
+        width: auto;
+        display: inline-block;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contenidoFinanciacion {
+        margin: 8px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(221, 220, 220);
+        font-weight: 200;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 880px) {
+    .gridAutos {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        background-color: transparent;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .gridAutos {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        background-color: transparent;
+        justify-content: center;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .botones {
+        width: 85%;
+        margin: 8px;
+        margin-left: 20px;
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 950px) {
+    .contenedorQuienesSomos {
+        width: auto;
+        display: inline-block;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contenidoQuienesSomos {
+        margin: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(221, 220, 220);
+        font-weight: 200;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+    }
+}

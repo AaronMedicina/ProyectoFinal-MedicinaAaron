@@ -1,0 +1,88 @@
+.titulo {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.tituloSecu {
+    margin: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 25px;
+}
+
+iframe {
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.textoQuienesSomos {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.h4QuienesSomos {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: none;
+    text-align: center;
+}
+
+.tituloMapa {
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.contenedorQuienesSomos {
+    width: auto;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(214, 47, 47);
+    border-radius: 6px;
+    box-shadow: 0 0 14px rgb(70, 67, 67);
+    margin: auto;
+}
+
+.h3QuienesSomos {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+.imagenQS {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contenidoQuienesSomos {
+    margin: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(221, 220, 220);
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}

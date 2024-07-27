@@ -1,0 +1,44 @@
+.footer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    position: relative;
+    width: 100%;
+    background-color: rgb(214, 47, 47);
+    padding: 20px 50px;
+    flex-direction: column;
+}
+
+.iconos {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 8px 6px;
+    flex-wrap: wrap;
+}
+
+.iconos2 {
+    list-style: none;
+}
+
+.iconos3 {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 8px;
+    transition: 0.5s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.textoFooter {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
