@@ -55,9 +55,9 @@ iframe {
     width: auto;
     display: flex;
     overflow: hidden;
-    background-color: rgb(214, 47, 47);
+    background-color: $color-principal-2;
     border-radius: 6px;
-    box-shadow: 0 0 14px rgb(70, 67, 67);
+    box-shadow: 0 0 14px $color-para-sombras;
     margin: auto;
 }
 
@@ -80,7 +80,7 @@ iframe {
     margin: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(221, 220, 220);
+    color: $color-principal-1;
     font-weight: 200;
     font-size: 18px;
     text-align: center;

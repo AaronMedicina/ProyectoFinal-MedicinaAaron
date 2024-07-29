@@ -1,0 +1,8 @@
+@mixin listas {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@mixin boton-contacto {
+    cursor: pointer;
+}

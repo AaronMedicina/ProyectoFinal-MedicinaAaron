@@ -31,16 +31,16 @@
     padding: 10px;
     border: 1px solid rgb(70, 67, 67);
     border-radius: 8px;
-    box-shadow: 0px 0px 15px rgb(70, 67, 67);
+    box-shadow: 0px 0px 15px $color-para-sombras;
     justify-content: center;
 }
 
 .card {
     width: auto;
-    background-color: rgb(214, 47, 47);
+    background-color: $color-principal-2;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 0 14px rgb(70, 67, 67);
+    box-shadow: 0 0 14px $color-para-sombras;
     margin: 5px;
     transition: 0.5s;
 
@@ -92,5 +92,5 @@ h5 {
 }
 
 .btn:hover {
-    color: rgb(214, 47, 47);
+    color: $color-principal-2;
 }

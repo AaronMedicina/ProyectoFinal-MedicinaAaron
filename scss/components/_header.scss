@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(214, 47, 47);
+    background-color: $color-principal-2;
 }
 
 .logo img {
@@ -11,9 +11,8 @@ header {
 }
 
 a {
-    text-decoration: none;
+    @include listas;
     color: black;
-    text-transform: uppercase;
     font-weight: 300;
 }
 
