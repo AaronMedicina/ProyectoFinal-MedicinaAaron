@@ -27,8 +27,8 @@
     grid-template-rows: auto auto auto;
     background-color: transparent;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
+    margin: 10px auto;
+    padding: 16px;
     border: 1px solid rgb(70, 67, 67);
     border-radius: 8px;
     box-shadow: 0px 0px 15px $color-para-sombras;
@@ -41,7 +41,7 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 14px $color-para-sombras;
-    margin: 5px;
+    margin: 10px;
     transition: 0.5s;
 
     img {
