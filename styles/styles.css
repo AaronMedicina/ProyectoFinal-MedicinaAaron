@@ -451,6 +451,14 @@ iframe {
         background-color: transparent;
         justify-content: center;
     }
+
+    .gridHome {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        background-color: transparent;
+        justify-content: center; 
+    }
 }
 
 @media (max-width:650px) {
@@ -460,6 +468,14 @@ iframe {
         grid-template-rows: auto auto auto;
         background-color: transparent;
         justify-content: center;
+    }
+
+    .gridHome {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        background-color: transparent;
+        justify-content: center; 
     }
 
     input, textarea {
